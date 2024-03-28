@@ -1,0 +1,14 @@
+{
+  "base_model_name_or_path": "bigscience/bloomz-1b7",
+  "inference_mode": true,
+  "num_attention_heads": 16,
+  "num_layers": 24,
+  "num_transformer_submodules": 1,
+  "num_virtual_tokens": 256,
+  "peft_type": "PROMPT_TUNING",
+  "prompt_tuning_init": "TEXT",
+  "prompt_tuning_init_text": "Does the following tweets endorse a conspiracy surring the black lives matter (blm) protests. Common conspiracy hashtabs include #antifaterrorists and #blmterrorists\n\nTweet: if you want to effectively stop the #antifaterrorists & #blmterrorists quickly, you need to start rounding up terrorist propagandists like this before they cause more terrorist cells=\nAnswer: Yes\n\nTweet: ",
+  "task_type": "CAUSAL_LM",
+  "token_dim": 2048,
+  "tokenizer_name_or_path": "bigscience/bloomz-1b7"
+}

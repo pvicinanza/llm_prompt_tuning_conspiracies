@@ -1,0 +1,14 @@
+{
+  "base_model_name_or_path": "bigscience/bloomz-1b7",
+  "inference_mode": true,
+  "num_attention_heads": 16,
+  "num_layers": 24,
+  "num_transformer_submodules": 1,
+  "num_virtual_tokens": 256,
+  "peft_type": "PROMPT_TUNING",
+  "prompt_tuning_init": "TEXT",
+  "prompt_tuning_init_text": "Does the following tweets endorse the conspiracy theory that covid-19 death statistics are inflated or fake?  Answer yes or no. \n\nTweet: People aren't dying of covid-19 they're dying from cancer and car accidents. Doctors say covid cause they get paid lots of money.\nAnswer: Yes\n\nTweet: ",
+  "task_type": "CAUSAL_LM",
+  "token_dim": 2048,
+  "tokenizer_name_or_path": "bigscience/bloomz-1b7"
+}

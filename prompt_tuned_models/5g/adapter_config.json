@@ -1,0 +1,14 @@
+{
+  "base_model_name_or_path": "bigscience/bloomz-1b7",
+  "inference_mode": true,
+  "num_attention_heads": 16,
+  "num_layers": 24,
+  "num_transformer_submodules": 1,
+  "num_virtual_tokens": 256,
+  "peft_type": "PROMPT_TUNING",
+  "prompt_tuning_init": "TEXT",
+  "prompt_tuning_init_text": "Does the following tweet endorse a conspiracy theory involving 5g? Common conspiracy hashtags include #5gkills and #stop5g. Answer Yes or No in lowercase. \n\nTweet: Bill Gates is installing #5g towers to infect us with microradation #5gkills\nAnswer: Yes\n\nTweet: ",
+  "task_type": "CAUSAL_LM",
+  "token_dim": 2048,
+  "tokenizer_name_or_path": "bigscience/bloomz-1b7"
+}

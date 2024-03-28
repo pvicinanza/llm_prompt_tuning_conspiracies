@@ -1,0 +1,14 @@
+{
+  "base_model_name_or_path": "bigscience/bloomz-1b7",
+  "inference_mode": true,
+  "num_attention_heads": 16,
+  "num_layers": 24,
+  "num_transformer_submodules": 1,
+  "num_virtual_tokens": 256,
+  "peft_type": "PROMPT_TUNING",
+  "prompt_tuning_init": "TEXT",
+  "prompt_tuning_init_text": "Does the following tweets endorse the conspiracy theory that the hospitals are secretly empty during the covid-19 pandemic. Common conspiracy hashtabs include #emptyhospitals and #filmyourhospitals. Answer yes or no. \n\nTweet: all over the world hospitals said to be \"swamped\" with covid19 cases are videoed to be empty. #fakenews #filmyourhospital\nAnswer: Yes\n\nTweet: ",
+  "task_type": "CAUSAL_LM",
+  "token_dim": 2048,
+  "tokenizer_name_or_path": "bigscience/bloomz-1b7"
+}

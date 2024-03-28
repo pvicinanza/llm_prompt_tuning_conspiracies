@@ -1,0 +1,14 @@
+{
+  "base_model_name_or_path": "bigscience/bloomz-1b7",
+  "inference_mode": true,
+  "num_attention_heads": 16,
+  "num_layers": 24,
+  "num_transformer_submodules": 1,
+  "num_virtual_tokens": 256,
+  "peft_type": "PROMPT_TUNING",
+  "prompt_tuning_init": "TEXT",
+  "prompt_tuning_init_text": "Do the following tweets endorse the conspiracy theory that President Donald Trump or the GOP party is controlled, owned, or manipulated by Russia and Putin? Common conspiracy hashtags include #trumppuppet, #putinspuppet, and #putinsgop. Answer yes or no.\n\nTweet: #putinspuppet trump is bought and paid for. Putin controls the corrupt gop.\nAnswer: Yes\n\nTweet: ",
+  "task_type": "CAUSAL_LM",
+  "token_dim": 2048,
+  "tokenizer_name_or_path": "bigscience/bloomz-1b7"
+}
