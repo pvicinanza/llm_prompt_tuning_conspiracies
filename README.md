@@ -10,10 +10,10 @@ The core methodological task of the paper is to classify tweets as endorsing, or
 **Prompt Tuning Benchmark**
 | | BLOOMZ-1.7B Prompt Tuned | GPT3 175B Davinci-003 | 
 | :------------- | :-------------: | :-------------: | 
-| Accuracy | 0.85 | 0.63 |
-| F1 | 0.904 | 0.697 |
-| Precision | 0.887 | 0.52 |
-| Recall | 0.903 | 0.929 |
+| Accuracy | **0.85** | 0.63 |
+| F1 | **0.904** | 0.697 |
+| Precision | **0.887** | 0.52 |
+| Recall | 0.903 | **0.929** |
 
 ### Replication code
 
