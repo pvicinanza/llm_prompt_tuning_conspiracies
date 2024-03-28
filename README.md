@@ -31,4 +31,4 @@ Despite using 100x fewer parameters, this approach signficantly outperforms a fe
 
 ### Replication code
 
-Code needed to replicate the results of the study is provided as a [jupyter notebook designed to run in Google Colab]((./prompt_tuned_conspiracies.ipynb)).
+Code needed to replicate the results of the study is provided as a [jupyter notebook designed to run in Google Colab](./prompt_tuned_conspiracies.ipynb). This is a single, self-contained file with built in reference to the data. All you need to is open the notebook in Colab! No Drive mounting or git cloning needed. 
